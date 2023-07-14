@@ -1,0 +1,10 @@
+<core-pf-header [sideNav]="sideNav"></core-pf-header>
+<mat-drawer-container class="app-drawer-container" [hasBackdrop]="false">
+    <mat-drawer #sideNav mode="push" class="app-drawer" opened>
+        <core-pf-side-menu [sideNav]="sideNav"></core-pf-side-menu>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+<core-pf-footer></core-pf-footer>
