@@ -112,3 +112,8 @@ $cf-platform-cloud-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; background-color: transparent; font-family: Open Sans, sans-serif; font-size: 14px; color:#252a2e }
+
+@import url(app/shared/styles/others/pf-scrollbar.scss);
+@import url(app/shared/styles/others/pf-common.scss);
+@import url(app/shared/styles/components/pf-modus-button.scss);
+@import 'app/shared/styles/others/pf-variables.scss';
